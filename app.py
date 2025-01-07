@@ -66,7 +66,7 @@ with col2:
 
     # Checkboxes for additional symptoms
     additional_symptoms = [
-        "Fever", "Headache", "Nausea", "Dizziness"
+        "High Fever", "Headache", "Nausea", "Dizziness"
     ]
 
     additional_checkboxes = {symptom: st.checkbox(f"Have you experienced {symptom}?") for symptom in additional_symptoms}
