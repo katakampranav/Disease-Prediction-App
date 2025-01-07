@@ -86,9 +86,9 @@ The model used in this app is a machine learning classifier trained on a dataset
 
 ## Deployment
 
-The app is also deployed on [Streamlit Cloud/Heroku/AWS]. You can access the live app by clicking the link below:
+The app is also deployed on Streamlit Cloud. You can access the live app by clicking the link below:
 
-- [Live App Link]
+- [Live App Link](https://disease-prediction-app-nknheifaqume48onnplpjg.streamlit.app/)
 
 ## Author
 
