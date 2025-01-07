@@ -6,7 +6,7 @@ import numpy as np
 st.set_page_config(
     page_title="Disease Prediction App", 
     layout='wide',
-    page_icon=""  # Provide the path to your logo file
+    page_icon="Datasets/LOGO.png"  # Provide the path to your logo file
 )
 
 # Load the pre-trained model and label encoder
