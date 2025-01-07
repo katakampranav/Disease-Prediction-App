@@ -2,8 +2,12 @@ import streamlit as st
 import pickle
 import numpy as np
 
-# Remove the sidebar and set the layout to wide
-st.set_page_config(layout='wide')
+# Set the page title and include a custom logo
+st.set_page_config(
+    page_title="Disease Prediction App", 
+    layout='wide',
+    page_icon=""  # Provide the path to your logo file
+)
 
 # Load the pre-trained model and label encoder
 with open('Pickle files/model.pkl', 'rb') as model_file:
